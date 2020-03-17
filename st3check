@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "curl --silent -x st3-mia1.belugacdn.com:80 "http://assetfiles.com/tiava.com/css/styles.css" | wc -c"
+curl --silent -x st3-mia1.belugacdn.com:80 "http://assetfiles.com/tiava.com/css/styles.css" | wc -c
+echo "curl --silent -x st3-whk1.belugacdn.com:80 "http://assetfiles.com/tiava.com/css/styles.css" | wc -c"
+curl --silent -x st3-whk1.belugacdn.com:80 "http://assetfiles.com/tiava.com/css/styles.css" | wc -c
+echo "curl --silent -x st3-ams2.belugacdn.com:80 "http://assetfiles.com/tiava.com/css/styles.css" | wc -c"
+curl --silent -x st3-ams2.belugacdn.com:80 "http://assetfiles.com/tiava.com/css/styles.css" | wc -c
